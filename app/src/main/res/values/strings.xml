@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RCO-ANDROID</string>
+    <string name="login_fragment_login_password">Пароль</string>
+    <string name="login_fragment_login_forgot_password">Забыли пароль?</string>
+    <string name="login_fragment_login_hint">Войти</string>
+    <string name="email">email</string>
+    <string name="login_fragment_signin_hint">Зарегистрироваться</string>
+</resources>
