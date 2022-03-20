@@ -7,16 +7,40 @@
     android:orientation="vertical"
     tools:context=".DashboardActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="30dp"
-        android:fontFamily="sans-serif-black"
-        android:textColor="#000000"
-        android:text="Welcome To DashBoard"
-        android:layout_marginTop="50dp"/>
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/btn_manage_projects"
+        android:textAllCaps="false"
+        android:text="Управление проектами"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/btn_view_object"
+        android:textAllCaps="false"
+        android:text="Осмотр объектов"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/btn_fix_analog"
+        android:textAllCaps="false"
+        android:text="Зафиксировать аналог"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="30dp"
+        android:id="@+id/btn_view_and_download_result"
+        android:textAllCaps="false"
+        android:text="Просмотр и выгрузка результатов"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
     <Button
         android:layout_margin="30dp"
         android:id="@+id/btn_log_out"
